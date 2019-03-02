@@ -1,0 +1,219 @@
+html,body{
+	font-family: 'Montserrat', sans-serif;
+	color: #3a3a3a;
+}
+header a{
+	text-decoration: none;
+	color: #f2f2f2;
+	padding-right: 40px;
+}
+header a:hover{
+	text-decoration: none;
+	color: orange;
+}
+#first_header{
+	background: #003262;
+	padding: 8px 0;
+	font-size: 13.5px;
+}
+.navbar{
+	background: #ffffff;
+}
+.navbar .navbar-brand{
+	padding: 0;
+}
+.navbar .navbar-brand h6{
+	display: inline-block;
+	vertical-align: middle;
+	color: #3a3a3a;
+	font-weight: 600;
+	font-size: 85%;
+	padding-top: 5px;
+}
+.navbar .navbar-nav .nav-item a{
+	color: #3a3a3a;
+	font-size: 14.5px;
+	font-weight: 500;
+}
+.navbar .navbar-nav .nav-item a:hover{
+	color: orange;
+}
+.hero{
+	background: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)),url(..//img/main.jpg) center no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+.carousel-inner .item {
+    width: 100%;
+    height: 600px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.ad1 {
+    background: url(../img/heritage_front.jpg) no-repeat center; 
+    background-size: cover;
+    height: 600px;
+}
+.ad2 {
+    background: url(../img/NLHC.jpg) no-repeat center; 
+    background-size: cover;
+    height: 600px;
+}
+.ad3 {
+    background: url(../img/acadCom.jpg) no-repeat center;
+    background-size: cover;
+    height: 600px; 
+}
+.ad4{
+    background: url(../img/GJLT.jpg) no-repeat center;
+    background-size: cover;
+    height: 600px; 
+}
+.carousel .carousel-caption {
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+}
+/*.about{
+	padding: 40px;
+	font-size: 14.5px;
+	font-weight: 500;
+}
+.about .row .col-md-8 .btn{
+	background: #ffffff;
+	color: #003262;
+	font-size: 15px;
+	border: 1px solid #003262;
+}
+.about .row .col-md-8 .btn:hover{
+	background: #003262;
+	color: #f2f2f2;
+}*/
+.achievements{
+	padding: 40px;
+	font-size: 14.5px;
+	font-weight: 500;
+}
+.slick-prev:before, .slick-next:before { 
+    color:#3a3a3a !important;
+}
+    /* the slides */
+  .slick-slide {
+    margin: 0 5px;
+  }
+  /* the parent */
+  .slick-list {
+    margin: 0 -5px;
+  }
+
+.ann_events{
+	padding: 40px;
+	background: #F7F7F7;
+	font-size: 14.5px;
+	font-weight: 500;
+}
+.ann_events .card .card-header{
+	background: #003262;
+	color: #f2f2f2;
+	font-weight:500;
+}
+.ann_events .row .col-md-3 .card a{
+	text-decoration: none;
+	color: #3a3a3a;
+}
+.ann_events .row .col-md-3 .card a:hover{
+	color: orange;
+}
+.ann_events .row .col-md-9 .card a{
+	text-decoration: none;
+	color: #3a3a3a;
+}
+.ann_events .row .col-md-9 .card a:hover{
+	color: orange;
+}
+.news{
+	padding: 40px;
+	font-size: 14.5px;
+	font-weight: 500;
+}
+.news .card .card-header{
+	background: #003262;
+	color: #f2f2f2;
+	font-weight:500;
+}
+.news .row .col-md-3 span{
+	display: block;
+	color: #003262;
+	font-size: 16px;
+	font-weight: 700;
+}
+.news .row .col-md-3 .events .date{
+	width: 25%;
+	float: left;
+	clear: all;
+}
+.news .row .col-md-3 .events .media{
+	width: 75%;
+}
+.news .row .col-md-4{
+	padding-bottom: 20px;
+}
+.news .overlay{
+	position: relative;
+}
+.news .content{
+	position: absolute;
+	  bottom: 0;
+	  background: rgb(0, 0, 0); /* Fallback color */
+	  background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 7)); /* Black background with 0.5 opacity */
+	  color: #f1f1f1;
+	  width: 100%;
+	  padding: 10px;
+}
+.campus{
+	padding: 40px;
+	background: #FAFAFA;
+}
+.campus .row .col-md-8 .row .col-md-4{
+	padding:0;
+	overflow: hidden;
+}
+.campus .row .col-md-8 .row .col-md-4 img{
+	transition: 0.3s ease-in-out;
+}
+.campus .row .col-md-8 .row .col-md-4 img:hover{
+	transform: scale(1.1);
+}
+#more .btn{
+	background: #FAFAFA;
+	color: #003262;
+	font-size: 15px;
+	border: 1px solid #003262;
+}
+#more .btn:hover{
+	background: #003262;
+	color: #f2f2f2;
+}
+.footer{
+	padding: 40px 0 7px;
+	background:#003262;
+	color: #f8f8f8;
+}
+.footer .row{
+	border-bottom: 1px solid lightgrey;
+	padding-bottom: 20px;
+}
+.footer h6{
+	background: linear-gradient(#f5f5f5, #f5f5f5) no-repeat;
+  	background-size: 10% 5px;
+  	background-position: left bottom;
+  	padding-bottom: 10px;
+  	margin-bottom: 20px;
+}
+.footer .row .col-md-3 a{
+	text-decoration: none;	
+	color: #f5f5f5;
+}
+.footer .col-md-12{
+	background:#1565c0;
+}
